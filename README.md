@@ -13,11 +13,7 @@
 
 
 
-</div>
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Entity+Extraction+System+Dashboard" alt="Dashboard Preview" width="800"/>
-</div>
 
 ## Features
 
@@ -34,16 +30,16 @@
 - ** Live Analytics**: Real-time processing metrics and statistics
 - ** Beautiful UI**: Center-aligned, professional Streamlit interface
 
-### 💾 Data Management
-- **📥 JSON Export**: Download individual results or complete history
-- **📈 Progress Tracking**: Monitor extraction performance over time
-- **🔍 Raw Data Access**: Full JSON output for developers
+### Data Management
+- JSON Export: Download individual results or complete history
+- Progress Tracking: Monitor extraction performance over time
+- Raw Data Access: Full JSON output for developers
 
 ---
 
-## 🛠️ Technical Details
+## Technical Details
 
-### 🤖 AI-Powered Engine
+### AI-Powered Engine
 
 <div align="center">
 
@@ -53,11 +49,11 @@
 | **Provider** | Groq AI |
 | **Temperature** | 0.1 (for consistent results) |
 | **Max Tokens** | 1024 |
-| **Speed** | ⚡ Ultra-fast inference |
+| **Speed** | Ultra-fast inference |
 
 </div>
 
-### 🔧 Extraction Logic
+###  Extraction Logic
 
 ```python
 # Advanced Prompt Engineering
