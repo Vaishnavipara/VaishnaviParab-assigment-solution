@@ -1,5 +1,4 @@
-# VaishnaviParab-assigment-solution
-# Entity Extraction from Conversations System
+# 🔍 Entity Extraction System
 
 <div align="center">
 
@@ -9,35 +8,32 @@
 ![AI](https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-flat)
 
+*A powerful web application that intelligently extracts entities from conversations using cutting-edge AI*
 
 
 
+##  Features
 
-
-
-## Features
-
-###  Smart Entity Extraction
+### Smart Entity Extraction
 | Entity Type | Description | Examples |
 |-------------|-------------|----------|
 | **People** | Full names of individuals mentioned | "Sarah", "Dr. Smith", "Alex Johnson" |
-| ** Topics** | Technologies, frameworks, subjects | "Python", "React", "Machine Learning" |
-| ** Preferences** | Likes, dislikes, goals, inclinations | Learning goals, technology preferences |
-| ** Facts** | Concrete statements and achievements | Companies, locations, skills, roles |
+| **Topics** | Technologies, frameworks, subjects | "Python", "React", "Machine Learning" |
+| **Preferences** | Likes, dislikes, goals, inclinations | Learning goals, technology preferences |
+| **Facts** | Concrete statements and achievements | Companies, locations, skills, roles |
 
-### Real-time Processing
-- ** Lightning Fast**: Powered by Groq's LPU technology
-- ** Live Analytics**: Real-time processing metrics and statistics
-- ** Beautiful UI**: Center-aligned, professional Streamlit interface
+###  Real-time Processing
+- **Lightning Fast**: Powered by Groq's LPU technology
+- **Live Analytics**: Real-time processing metrics and statistics
 
-### Data Management
-- JSON Export: Download individual results or complete history
-- Progress Tracking: Monitor extraction performance over time
-- Raw Data Access: Full JSON output for developers
+
+###  Data Management
+- **JSON Export**: Download individual results or complete history
+
 
 ---
 
-## Technical Details
+##  Technical Details
 
 ### AI-Powered Engine
 
@@ -49,11 +45,11 @@
 | **Provider** | Groq AI |
 | **Temperature** | 0.1 (for consistent results) |
 | **Max Tokens** | 1024 |
-| **Speed** | Ultra-fast inference |
+| **Speed** | ⚡ Ultra-fast inference |
 
 </div>
 
-###  Extraction Logic
+### 🔧 Extraction Logic
 
 ```python
 # Advanced Prompt Engineering
