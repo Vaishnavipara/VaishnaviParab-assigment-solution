@@ -1,4 +1,4 @@
-# 🔍 Entity Extraction System
+# Entity Extraction from Conversations System
 
 <div align="center">
 
@@ -23,12 +23,12 @@
 | **Facts** | Concrete statements and achievements | Companies, locations, skills, roles |
 
 ###  Real-time Processing
-- **Lightning Fast**: Powered by Groq's LPU technology
-- **Live Analytics**: Real-time processing metrics and statistics
+**Lightning Fast**: Powered by Groq's LPU technology
+**Live Analytics**: Real-time processing metrics and statistics
 
 
 ###  Data Management
-- **JSON Export**: Download individual results or complete history
+**JSON Export**: Download individual results or complete history
 
 
 ---
@@ -45,11 +45,11 @@
 | **Provider** | Groq AI |
 | **Temperature** | 0.1 (for consistent results) |
 | **Max Tokens** | 1024 |
-| **Speed** | ⚡ Ultra-fast inference |
+| **Speed** | Ultra-fast inference |
 
 </div>
 
-### 🔧 Extraction Logic
+###  Extraction Logic
 
 ```python
 # Advanced Prompt Engineering
