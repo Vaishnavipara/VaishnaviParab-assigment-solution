@@ -1,50 +1,71 @@
 # VaishnaviParab-assigment-solution
-Technical Details
-Entity Extraction Logic
-The system uses sophisticated prompt engineering to extract and categorize entities:
+# Entity Extraction from Conversations System
 
-People: Full names of individuals mentioned
+<div align="center">
 
-Topics: Technologies, frameworks, languages, subjects
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-flat&logo=Streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-flat&logo=python&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-00FF00?style=for-flat&logo=groq&logoColor=black)
+![AI](https://img.shields.io/badge/AI-Powered-FF6B6B?style=for-flat)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-flat)
 
-Preferences: Categorized into learning goals, technology preferences, work preferences
 
-Facts: Typed facts including skills, companies, locations, roles
 
-Models Used
-Primary Model: llama-3.1-8b-instant (optimized for speed and accuracy)
 
-Temperature: 0.1 (for consistent results)
 
-Max Tokens: 1024
+</div>
 
-📊 Features Overview
-Main Interface
-Center-aligned design with clean, professional appearance
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Entity+Extraction+System+Dashboard" alt="Dashboard Preview" width="800"/>
+</div>
 
-Real-time processing with progress indicators
+## Features
 
-Error handling with helpful suggestions
+###  Smart Entity Extraction
+| Entity Type | Description | Examples |
+|-------------|-------------|----------|
+| **People** | Full names of individuals mentioned | "Sarah", "Dr. Smith", "Alex Johnson" |
+| ** Topics** | Technologies, frameworks, subjects | "Python", "React", "Machine Learning" |
+| ** Preferences** | Likes, dislikes, goals, inclinations | Learning goals, technology preferences |
+| ** Facts** | Concrete statements and achievements | Companies, locations, skills, roles |
 
-Sidebar Analytics
-Extraction statistics (total, successful, average time)
+### Real-time Processing
+- ** Lightning Fast**: Powered by Groq's LPU technology
+- ** Live Analytics**: Real-time processing metrics and statistics
+- ** Beautiful UI**: Center-aligned, professional Streamlit interface
 
-Model information and API status
+### 💾 Data Management
+- **📥 JSON Export**: Download individual results or complete history
+- **📈 Progress Tracking**: Monitor extraction performance over time
+- **🔍 Raw Data Access**: Full JSON output for developers
 
-Data export functionality
+---
 
-Results Display
-Categorized entities with icons and counts
+## 🛠️ Technical Details
 
-Processing time metrics
+### 🤖 AI-Powered Engine
 
-Raw JSON view for developers
+<div align="center">
 
-Download options for individual results and full history
+| Component | Specification |
+|-----------|---------------|
+| **Model** | `llama-3.1-8b-instant` |
+| **Provider** | Groq AI |
+| **Temperature** | 0.1 (for consistent results) |
+| **Max Tokens** | 1024 |
+| **Speed** | ⚡ Ultra-fast inference |
 
-🔒 Privacy & Security
-Local Processing: All data processing happens locally via API calls
+</div>
 
-No Data Storage: Conversations are not stored on external servers
+### 🔧 Extraction Logic
 
-API Key Security: API keys are stored in local .env files only
+```python
+# Advanced Prompt Engineering
+def extract_entities(conversation):
+    """
+    Sophisticated entity categorization:
+    - People: Full names with context awareness
+    - Topics: Tech stack, frameworks, languages
+    - Preferences: Categorized preferences and goals
+    - Facts: Typed factual information
+    """
