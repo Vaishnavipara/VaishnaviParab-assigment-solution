@@ -12,15 +12,7 @@
 
 ---
 
-## Download the Model File
-
 Due to GitHub’s file size limit, the large model file is hosted externally.
-
-To access and download it:
-
-1. Open the file [`smart summar AI project.txt`](./[Entity Extraction from Conversations System](https://github.com/Vaishnavipara/SmartSummarAI_Automated_Summarization_Tool/blob/main/smart%20summar%20AI%20project.txt) in this repository.
-2. Click the Google Drive link inside the file.
-3. Download the model manually and place it in the project folder.
 
 ---
 
